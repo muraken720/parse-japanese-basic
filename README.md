@@ -48,8 +48,8 @@ console.log(inspect(cst))
 
 ## API
 
-*   [ParseJapaneseBasic(options?)](#parsejapaneseoptions)
-*   [ParseJapaneseBasic#parse(value)](#parsejapaneseparsevalue)
+*   [ParseJapaneseBasic(options?)](#parsejapanesebasicoptions)
+*   [ParseJapaneseBasic#parse(value)](#parsejapanesebasicparsevalue)
 
 ### ParseJapaneseBasic(options?)
 
