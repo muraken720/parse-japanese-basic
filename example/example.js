@@ -5,7 +5,7 @@ var ParseJapaneseBasic = require('../')
 var inspect = require('unist-util-inspect')
 
 var options = {
-  position: false
+  position: true
 }
 
 var japanese = new ParseJapaneseBasic(options)
