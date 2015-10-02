@@ -1,7 +1,7 @@
 {
   "name": "parse-japanese-basic",
   "description": "Japanese (natural language) parser basic module",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Kenichiro Murata <kenichiro.murata@gmail.com>",
   "bugs": {
     "url": "https://github.com/muraken720/parse-japanese-basic/issues"
