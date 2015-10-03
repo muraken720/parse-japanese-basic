@@ -16,5 +16,4 @@ var text = 'タイトル\n' +
 
 var cst = japanese.parse(text)
 
-console.log(JSON.stringify(cst, null, ' '))
 console.log(inspect(cst))

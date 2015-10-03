@@ -30,18 +30,15 @@ var cst = japanese.parse(text)
 console.log(inspect(cst))
 
 /**
-* RootNode[3]
-* ├─ ParagraphNode[2]
-* │  ├─ TextNode: 'タイトル'
-* │  └─ WhiteSpaceNode: '
-* '
-* ├─ ParagraphNode[1]
-* │  └─ WhiteSpaceNode: '
-* '
-* └─ ParagraphNode[2]
-*    ├─ TextNode: '1 これは前段です。これは中段（２文の場合は後段。）です。これは後段です。'
-*    └─ WhiteSpaceNode: '
-* '
+* RootNode[3] (1:1-3:39, 0-44)
+* ├─ ParagraphNode[2] (1:1-1:6, 0-5)
+* │  ├─ TextNode: "タイトル" (1:1-1:5, 0-4)
+* │  └─ WhiteSpaceNode: "\n" (1:5-1:6, 4-5)
+* ├─ ParagraphNode[1] (2:1-2:2, 5-6)
+* │  └─ WhiteSpaceNode: "\n" (2:1-2:2, 5-6)
+* └─ ParagraphNode[2] (3:1-3:39, 6-44)
+*    ├─ TextNode: "1 これは前段です。これは中段（２文の場合は後段。）です。これは後段です。" (3:1-3:38, 6-43)
+*    └─ WhiteSpaceNode: "\n" (3:38-3:39, 43-44)
 */
 
 ```
@@ -75,9 +72,10 @@ Parameters:
 
 ## Related
 
-*   [parse-latin](https://github.com/wooorm/parse-latin)
+*   [retext-japanese](https://github.com/muraken720/retext-japanese)
 *   [nlcst](https://github.com/wooorm/nlcst)
 *   [retext](https://github.com/wooorm/retext)
+*   [parse-latin](https://github.com/wooorm/parse-latin)
 
 ## License
 
