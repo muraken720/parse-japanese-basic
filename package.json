@@ -1,7 +1,7 @@
 {
   "name": "parse-japanese-basic",
   "description": "Japanese (natural language) parser basic module",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "author": "Kenichiro Murata <kenichiro.murata@gmail.com>",
   "bugs": {
     "url": "https://github.com/muraken720/parse-japanese-basic/issues"
@@ -13,7 +13,7 @@
   "devDependencies": {
     "espower-babel": "^3.3.0",
     "mocha": "^2.3.3",
-    "power-assert": "^1.0.1",
+    "power-assert": "^1.1.0",
     "standard": "^5.3.1",
     "unist-util-inspect": "^2.0.0"
   },
@@ -37,7 +37,7 @@
   },
   "scripts": {
     "standard": "standard",
-    "test": "mocha --compilers js:espower-babel/guess test/**/*.js"
+    "test": "npm run standard && mocha --compilers js:espower-babel/guess test/**/*.js"
   },
   "standard": {
     "globals": [
